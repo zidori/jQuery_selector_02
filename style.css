@@ -1,0 +1,21 @@
+@charset "UTF-8";
+*{margin: 0; padding: 0;}
+html,body{height: 100%;}
+body,a{color: #666;}
+ul,ol{list-style: none;}
+
+li{
+  min-height: 20px;
+  line-height: 20px;
+  border: 1px solid blue;
+}
+
+/*짝수 요소 선택*/
+/* li:nth-child(even){
+  background: salmon;
+} */
+
+/*홀수 요소 선택*/
+/* li:nth-child(odd){
+  background: violet;
+} */
